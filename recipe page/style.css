@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p,li,td{
+    font-family: "Outfit", sans-serif;
+}
+h1,h2,h3{
+    font-family: "Young Serif", serif;;
+}
+
+body{
+    width: 100%;
+    background-color: #f3e5d8;
+    
+}
+.container{
+   width: 540px;
+   /* height: 300px; */
+   background-color: hsl(0, 0%, 100%);
+   margin: auto;
+   margin-top: 45px;
+   border-radius: 12px;
+}
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        margin-top: 0;
+    }
+  }
+.content-box{
+    max-width: 480px;
+    /* height: 200px; */
+    
+    margin: auto;
+}
+.img{
+    max-width: 480px;
+    padding-top: 30px;
+    border-radius: 23px;
+
+}
+.img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.heading-data h1{
+    color:black;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+.heading-data p{
+    padding-bottom:18px ;
+}
+.preparation{
+    width: 480px;
+    height: 150px;
+    background-color: #f3e5d8;
+    margin-bottom: 15px;
+}
+.preparation p{
+    padding-left: 23px;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 6px;
+    padding-top: 17px;
+}
+.preparation ul{
+    padding-left: 47px;
+    padding-top: 12px;
+}
+.preparation ul li:before{
+    content: "";
+    padding-left: 12px;
+}
+.preparation ul li{
+    padding-top: 7px;
+    color: hsl(24, 5%, 18%);
+    
+}
+.Instruction{
+    padding-top: 18px;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+.list-style{
+    padding-left: 29px;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid gray;
+
+}
+.list-style li{
+    padding-top: 6px;
+    color: hsl(24, 5%, 18%);
+}
+.list-style li::before{
+    content: "";
+    padding-left: 8px;
+}
+.order-list-style{
+    text-align: left;
+    padding-left: 29px;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid gray;
+}
+ol > li::marker {
+    font-weight: bold;
+  }
+.order-list-style li{
+    padding-top: 8px;
+    line-height: 1.5;
+    text-align: justify;
+    color: hsl(24, 5%, 18%);
+    padding-right: 16px;
+    
+    
+}
+.order-list-style li::before{
+    content: "";
+    padding-left: 8px;
+}
+.nutrition{
+    padding-top: 23px;
+}
+.nutrition p{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: hsl(24, 5%, 18%);
+}
+table{
+    width: 430px;
+    padding-left: 34px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr.spaceUnder>td {
+    padding-bottom: 8px;
+}
+tr {
+    padding-top: 12px;
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+td{
+    padding-top: 12px;
+    color: hsl(24, 5%, 18%);
+}
